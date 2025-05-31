@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'Materiobados.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'school_db',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'simplengtao$school_db',
+        'USER': 'simplengtao',
+        'PASSWORD': 'Supotako123',  # Replace with your actual MySQL password
+        'HOST': 'simplengtao.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
